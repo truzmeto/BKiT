@@ -75,9 +75,9 @@
 	  for ligand–receptor unbinding or conformational transitions using principal component analysis (PCA). By transforming
 	  cartesian coordinates of the complex conformation into a single point in a reduced PC space, we extract major motions
 	  essential for describing the kinetics and free energy calculation.
-	  
-		  We partition the unbinding path roach to assign indexes along the
-	  approximated coordinates in the PC space. The indexes can be used as milestones or microstates
+	  /*   Unbinding path is partitioned with disks/lines
+	  (milestones) to assign indexes in the PC space. 
+		  The indexes can be used as milestones or microstates
 	  for further investigation. Users can easily select projected points on the PC plot to examine the
 	  molecular system of interest. Using the indexes as milestones, BKiT generates input files to run
 	  many short 100-ps classical MD (cMD) and uses milestoning theory to construct the free energy
@@ -89,7 +89,8 @@
           enhanced sampling technique, and the all-atom (3N-6) dimensions  are reduced three dimensions using principal
           component space. We use the binding/unbinding index in the reduced space that corresponds to a distinct
           protein-ligand conformation and the milestoning theory to construct the free energy profile along the path.          
-          </p>          
+          */  
+	</p>          
         </div>
         <div class="col"></div>
       </div>
